@@ -71,7 +71,7 @@ Run the main script:
 python main.py
 
 
-🧠 Future Improvements
+##🧠 Future Improvements
 
 Add support for more currency and locale-specific formats
 
@@ -79,5 +79,5 @@ Interactive dashboard with filters
 
 Integration with cloud storage and APIs
 
-📝 License
+##📝 License
 This project is for educational and internal demonstration purposes only.
