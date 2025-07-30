@@ -26,11 +26,7 @@ The goal of this project is to build a structured pipeline that:
 - `datetime`, `decimal`, `locale` for specialized formatting  
 - `sqlite3` as a lightweight optional backend
 
-## 📁 Project Structure
-``` 
-Financial-data-parser/ ├── config/ # Configuration files │ └── settings.py │ ├── data/ # Input and output data │ ├── sample/ # Sample input Excel files │ │ ├── KH_Bank.XLSX │ │ └── Customer_Ledger_Entries_FULL.xlsx │ └── processed/ # Processed output (optional) │ ├── examples/ # Example usage scripts │ ├── basic_usage.py │ ├── advanced_parsing.py │ └── performance_demo.py │ ├── scripts/ # Benchmark and automation scripts │ └── run_benchmarks.py │ ├── src/ # Core functionality │ ├── core/ │ │ ├── excel_processor.py │ │ ├── type_detector.py │ │ ├── format_parser.py │ │ └── data_storage.py │ ├── utils/ │ │ ├── helpers.py │ │ └── validators.py │ └── __init__.py │ ├── tests/ # Unit tests │ ├── test_excel_processor.py │ ├── test_type_detector.py │ ├── test_format_parser.py │ └── test_data_storage.py │ ├── main.py # Main script to run the parser ├── requirements.txt # Project dependencies ├── README.md # Project documentation └── setup.py # Project setup (optional)
 
-```
 
 ## 🧪 Sample Output
 
